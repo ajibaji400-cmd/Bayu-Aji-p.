@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SportShoes - Sepatu Olahraga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SportShoes</h1>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Sepatu Olahraga Terbaik</h2>
+    <p>Nyaman, ringan, dan stylish untuk aktivitas olahraga Anda</p>
+    <button onclick="showAlert()">Lihat Promo</button>
+</section>
+
+<section class="container" id="produk">
+    <h2>Produk Kami</h2>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://picsum.photos/400/300?random=1" alt="Sepatu Running">
+            <h3>Sepatu Running Pro</h3>
+            <p>Rp 750.000</p>
+            <button onclick="buyProduct('Sepatu Running Pro')">Beli</button>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/400/300?random=2" alt="Sepatu Futsal">
+            <h3>Sepatu Futsal X</h3>
+            <p>Rp 680.000</p>
+            <button onclick="buyProduct('Sepatu Futsal X')">Beli</button>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/400/300?random=3" alt="Sepatu Training">
+            <h3>Sepatu Training Flex</h3>
+            <p>Rp 820.000</p>
+            <button onclick="buyProduct('Sepatu Training Flex')">Beli</button>
+        </div>
+
+        <!-- PRODUK BARU -->
+        <div class="product">
+            <img src="https://picsum.photos/400/300?random=4" alt="Sepatu Basket">
+            <h3>Sepatu Basket Power</h3>
+            <p>Rp 900.000</p>
+            <button onclick="buyProduct('Sepatu Basket Power')">Beli</button>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/400/300?random=5" alt="Sepatu Hiking">
+            <h3>Sepatu Hiking Trail</h3>
+            <p>Rp 950.000</p>
+            <button onclick="buyProduct('Sepatu Hiking Trail')">Beli</button>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/400/300?random=6" alt="Sepatu Badminton">
+            <h3>Sepatu Badminton Speed</h3>
+            <p>Rp 700.000</p>
+            <button onclick="buyProduct('Sepatu Badminton Speed')">Beli</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="container" id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>
+        SportShoes adalah toko sepatu olahraga yang menyediakan produk
+        berkualitas tinggi dengan desain modern.
+    </p>
+</section>
+
+<section class="container" id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: sportshoes@email.com</p>
+    <p>WhatsApp: 0895-0933-3276</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 SportShoes</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
